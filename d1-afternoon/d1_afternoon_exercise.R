@@ -38,13 +38,33 @@ ggplot(data= TruSeq, mapping = aes(x = SMTSD, y = SMRIN)) +
 ggplot(data= TruSeq, mapping = aes(x = SMTSD, y = SMGNSDTC)) +
   geom_violin() +
   xlab("Tissue Type") +
-  ylab("RNA Integrity Number") +
+  ylab("Number of Genes") +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) 
 
-#Violin plot is once again a nice representation of the # of genes from each sample, the CNL cells have the lowest number, this could be due to the being cancerous and the genes have been hijacked to preform just survivial and proliferative properties more than other types. Tes
+#Violin plot is once again a nice representation of the # of genes from each sample, the CNL cells have the lowest number, this could be due to the being cancerous and the genes have been hijacked to preform just survival and proliferative properties more than other types. Testis express more genes than other mammalian tissues according to Xia.et al 2021. 
+
+#Q8
+ggplot(data= TruSeq, mapping = aes(x = SMTSISCH, y = SMRIN)) +
+  geom_point(size = 0.5, alpha = 0.5) +
+  xlab("RNA Integrity Number") +
+  ylab("Ischemic Time") +
+  facet_wrap("SMTSD") +
+  geom_smooth(method = "lm")
+#  Most tissues do not have major changes in RIN with ischemic time. The cervix and Fallopian tubes and other mucous membranes seem to have the most degradation with increased ischemia. 
+
+#Q9
+ggplot(data= TruSeq, mapping = aes(x = SMTSISCH, y = SMRIN,)) +
+  geom_point(size = 0.5, alpha = 0.5, aes(color = "SMATSSCR")) +
+  xlab("RNA Integrity Number") +
+  ylab("Ischemic Time") +
+  facet_wrap("SMTSD") +
+  geom_smooth(method = "lm")
+        
 
   
 
+  
+#Q9
 
 
  
