@@ -1,54 +1,33 @@
-import random
+
+##Exercise 1
+##Step 1.1: Calculate the number of reads needed = 30,000
+#num_reads = (coverage * genome_size) // read_length
  
-# Step 1: Set the parameters
-genome_size = 1000000  # 1Mbp genome
-read_length = 100      # 100bp reads
-coverage = 30          # 30x coverage
+##Step 1.2: Create an array to hold the coverage for each position in the genome
  
+#Step 1.3
+#uploaded as ex1_3x_cov.png
  
-##Q1.1: Calculate the number of reads needed = 30,000
-num_reads = (coverage * genome_size) // read_length
+##Step 1.4
+#1. 5.03% has zero coverage. 
+#2. This matches the Poisson and normal distrubution expectation exactly.
  
-# Step 2: Create an array to hold the coverage for each position in the genome
-genome_coverage = [0] * genome_size
+ ##Step 1.5
+#1. Simulate the reads
+#2. Uploaded as ex1_10x_cov.png
+#3. 1. 0.01% has zero coverage.
+#   2. Normal and Poisson distribution expectations overall match the graph. In a slight difference of expectations, Poisson distribution expects slightly more coverage at lower frequencies than normal distribution expectations. At higher coverage, Poisson expects slightly lower frequency than normal distribution expects. 
+
+##Step 1.6
+#1. Simulate the reads
+#2. Uploaded as ex1_30x_cov.png
+#3. 1. 0.00% has zero coverage.
+#   2. Normal and POission distribution expectations are much higher than the actual histogram data. 
+
+##Exercise 2
+#Step 2.5
+#ATTTTCTCACATTTA
+
+#Step 2.6 What would it take to accurately reconstruct the sequence of the genome? 
+# We would need enough reads to cover the entire genome so there would be no gaps anywhere and each kmer would overlap with another. We would need to find a way to deal with any confusing regions of the genome such as sections with many repeats. One tactic would be to use longer kmers as these would offer more information and specificity to the genome but also in how they overlap with other kmers. Also, since they would have a higher probability of being unique from the increased length, they would be less likely to result in multiple paths, which we would be able to see in the De Bruijn graph. We would also need to have enough reads so help confirm the specificity of each kmer. This way if one did not align correctly there would be others to bridge the gaps. In summary, kmer length and read depth are key to reconstructing the genome. 
  
-# Step 3: Simulate the reads
-for i in range(num_reads):
-    # Pick a random starting position for the read
-    start_pos = random.randint(0, genome_size - read_length)
-    
-    # Increase the coverage for each position in the read
-    for j in range(start_pos, start_pos + read_length):
-        genome_coverage[j] += 1
- 
-# Step 4: Save the coverage array to a file
-with open('30_genome_coverage.txt', 'w') as f:
-    for coverage_value in genome_coverage:
-        f.write(str(coverage_value) + '\n')
- 
-#print("Simulation complete. Coverage data saved to '30x_genome_coverage.txt'.")
-
-#alterd the above script each time for coverage i.e 3X, 10X, and 30X. 
-
-
-#How much of the genome has 0 coverage with the 30X simulation?
-
-# Calculate the number of positions with 0x coverage
-zero_coverage_positions = genome_coverage.count(0)
-
-# Calculate the percentage of genome with 0x coverage
-percentage_zero_coverage = (zero_coverage_positions / genome_size) * 100
-
-# Print the result
-print(f"Percentage of genome with 0x coverage: {percentage_zero_coverage:.2f}%")
-##Q 1.4: 5.03% has zero coveragse and this matches the Poisson and normal distrubution expectation exactly. Overall Poisson expects less coverage than normal distribution as higher coverage ranges.  
-##Q 1.5: at 10X coverage now only 0.01% has zero coverage. At lower coverages, normal distribution expects higher coverage than Poission but very slightly. Both match the histogram well. 
-##Q 1.6. at 30X coverage 0.00% has zero coverage. The Poisson and normal distributon overlap but are much higher than the histogram. 
-
-#Q2.5
-ATTTTCTCACATTTA
-
-#Q2.6
-To accurately reconstruct the sequence we would need enough coverage to make sure each 3mer was in the correct spot. This would be accomplished by overlaying all the 3mers to ensure correct alignment. 
-
-
