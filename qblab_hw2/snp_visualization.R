@@ -25,8 +25,8 @@ snp_plot <- ggplot(snp_data, aes(x=MAF, y=log2_enrichment, color=Feature, group=
   theme(plot.title = element_text(hjust = 0.5)) +  # Center the title
   labs(color="Feature")  # Legend label
 
-# Step 4: Save the plot as 'snp_enrichments.pdf'
-ggsave("snp_enrichments.pdf", plot=snp_plot, width=8, height=6)
+# Step 4: Save the plot as 'snp_enrichments.png'
+ggsave("snp_enrichments.png", plot=snp_plot, width=8, height=6)
 
 # Inform the user that the plot has been saved
-cat("Plot saved as 'snp_enrichments.pdf'.\n")
+cat("Plot saved as 'snp_enrichments.png'.\n")
