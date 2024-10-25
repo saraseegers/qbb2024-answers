@@ -1,0 +1,31 @@
+
+GO:0004252	DROME|FlyBase=FBgn0050025|UniProtKB=A1Z8J8,DROME|FlyBase=FBgn0264253|UniProtKB=Q7KT95,DROME|FlyBase=FBgn0038431|UniProtKB=Q4V5J3	serine-type endopeptidase activity	endopeptidase activity		295
+GO:0005125	DROME|FlyBase=FBgn0031461|UniProtKB=Q9VQG9	cytokine activity	receptor ligand activity		180
+GO:0060271	DROME|FlyBase=FBgn0034622|UniProtKB=B7YZM8	cilium assembly	cilium organization	axoneme assembly;non-motile cilium assembly;intraciliary transport involved in cilium assembly;vesicle targeting, trans-Golgi to periciliary membrane compartment;motile cilium assembly;ciliary transition zone assembly	283
+GO:0005794	DROME|FlyBase=FBgn0051956|UniProtKB=Q8IA42,DROME|FlyBase=FBgn0270928|UniProtKB=O17444,DROME|FlyBase=FBgn0053105|UniProtKB=Q86BA5	Golgi apparatus	endomembrane system	COPI vesicle coat;Golgi transport complex;Golgi apparatus subcompartment;cis-Golgi network;Golgi membrane	2298
+GO:0007169	DROME|FlyBase=FBgn0003366|UniProtKB=P13368	transmembrane receptor protein tyrosine kinase signaling pathway	enzyme-linked receptor protein signaling pathway	ERBB signaling pathway;insulin receptor signaling pathway;vascular endothelial growth factor receptor signaling pathway;insulin-like growth factor receptor signaling pathway;fibroblast growth factor receptor signaling pathway	343
+PC00041	DROME|FlyBase=FBgn0264502|UniProtKB=A8JUR1,DROME|FlyBase=FBgn0260463|UniProtKB=Q8INN6	actin or actin-binding cytoskeletal protein	cytoskeletal protein	non-motor actin binding protein;actin binding motor protein;actin and actin related protein	561
+GO:0031256	DROME|FlyBase=FBgn0052057|UniProtKB=Q9VT83	leading edge membrane	cell leading edge	ruffle membrane	62
+GO:0015101	DROME|FlyBase=FBgn0270928|UniProtKB=O17444	organic cation transmembrane transporter activity	transmembrane transporter activity		58
+GO:0007275	DROME|FlyBase=FBgn0003366|UniProtKB=P13368	multicellular organism development	multicellular organismal process	pattern specification process;tube development;post-embryonic development;pollen development;embryo development;system development;male sex differentiation	1722
+GO:0030198	DROME|FlyBase=FBgn0086408|UniProtKB=Q9W1Z6,DROME|FlyBase=FBgn0031000|UniProtKB=Q9VWK2	extracellular matrix organization	extracellular structure organization	collagen fibril organization	291
+GO:0050808	DROME|FlyBase=FBgn0052057|UniProtKB=Q9VT83	synapse organization	cell junction organization	neuromuscular junction development;synapse assembly;synaptic membrane adhesion;postsynapse organization	142
+PC00175	DROME|FlyBase=FBgn0052557|UniProtKB=Q9VX11,DROME|FlyBase=FBgn0039848|UniProtKB=Q9V9X5,DROME|FlyBase=FBgn0085428|UniProtKB=A8DWJ8	oxidase	oxidoreductase		792
+GO:0016747	DROME|FlyBase=FBgn0053110|UniProtKB=Q9VCY5	acyltransferase activity, transferring groups other than amino-acyl groups	acyltransferase activity	palmitoyltransferase activity;acetyltransferase activity;O-acyltransferase activity;N-acyltransferase activity	1272
+GO:0007186	DROME|FlyBase=FBgn0050361|UniProtKB=A0A0B4KF15,DROME|FlyBase=FBgn0052475|UniProtKB=Q9W0V7	G protein-coupled receptor signaling pathway	signal transduction	phospholipase C-activating G protein-coupled receptor signaling pathway;neuropeptide signaling pathway;adenylate cyclase-modulating G protein-coupled receptor signaling pathway	1235
+GO:0030658	DROME|FlyBase=FBgn0270928|UniProtKB=O17444	transport vesicle membrane	transport vesicle	synaptic vesicle membrane;ER to Golgi transport vesicle membrane	224
+GO:0008610	DROME|FlyBase=FBgn0038733|UniProtKB=Q9VDU1,DROME|FlyBase=FBgn0037996|UniProtKB=Q9VGC5	lipid biosynthetic process	organic substance biosynthetic process	lipopolysaccharide biosynthetic process;phospholipid biosynthetic process;steroid biosynthetic process;isoprenoid biosynthetic process;fatty acid biosynthetic process;membrane lipid biosynthetic process;glycerolipid biosynthetic process	1339
+GO:0030139	DROME|FlyBase=FBgn0270928|UniProtKB=O17444	endocytic vesicle	cytoplasmic vesicle	phagocytic vesicle	112
+GO:0009057	DROME|FlyBase=FBgn0034580|UniProtKB=Q9W2M7	macromolecule catabolic process	macromolecule metabolic process	modification-dependent macromolecule catabolic process;RNA catabolic process;DNA catabolic process;protein catabolic process	2658
+GO:0000978	DROME|FlyBase=FBgn0015919|UniProtKB=P54269,DROME|FlyBase=FBgn0030417|UniProtKB=Q9VYJ8,DROME|FlyBase=FBgn0014343|UniProtKB=M9PI45,DROME|FlyBase=FBgn0015904|UniProtKB=Q24248,DROME|FlyBase=FBgn0008646|UniProtKB=Q9VFQ3	RNA polymerase II cis-regulatory region sequence-specific DNA binding	cis-regulatory region sequence-specific DNA binding		2988
+PC00042	DROME|FlyBase=FBgn0053110|UniProtKB=Q9VCY5,DROME|FlyBase=FBgn0039092|UniProtKB=Q9VCK8	acyltransferase	transferase		559
+GO:0005789	DROME|FlyBase=FBgn0053110|UniProtKB=Q9VCY5	endoplasmic reticulum membrane	endoplasmic reticulum subcompartment	EMC complex;oligosaccharyltransferase complex;rough endoplasmic reticulum membrane	1078
+GO:0006633	DROME|FlyBase=FBgn0053110|UniProtKB=Q9VCY5	fatty acid biosynthetic process	fatty acid metabolic process	unsaturated fatty acid biosynthetic process	283
+GO:0001640	DROME|FlyBase=FBgn0050361|UniProtKB=A0A0B4KF15	adenylate cyclase inhibiting G protein-coupled glutamate receptor activity	G protein-coupled receptor activity		20
+PC00248	DROME|FlyBase=FBgn0030417|UniProtKB=Q9VYJ8	C2H2 zinc finger transcription factor	zinc finger transcription factor		1619
+PC00031	DROME|FlyBase=FBgn0035571|UniProtKB=Q9VZ88	RNA metabolism protein	protein class	RNA helicase;RNA processing factor;general transcription factor;RNA methyltransferase;exoribonuclease;endoribonuclease;DNA-directed RNA polymerase	2860
+PC00133	DROME|FlyBase=FBgn0034730|UniProtKB=Q9W250	ion channel	transporter	voltage-gated ion channel;ligand-gated ion channel	1119
+PC00097	DROME|FlyBase=FBgn0000592|UniProtKB=P08171	esterase	hydrolase		553
+GO:0005546	DROME|FlyBase=FBgn0035308|UniProtKB=B7Z0I2	phosphatidylinositol-4,5-bisphosphate binding	anion binding		96
+GO:0006066	DROME|FlyBase=FBgn0036553|UniProtKB=Q9VUW4	alcohol metabolic process	small molecule metabolic process	alcohol biosynthetic process;retinol metabolic process;secondary alcohol metabolic process	427
+GO:0004714	DROME|FlyBase=FBgn0003366|UniProtKB=P13368	transmembrane receptor protein tyrosine kinase activity	transmembrane receptor protein kinase activity		110
