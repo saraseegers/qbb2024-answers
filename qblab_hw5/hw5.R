@@ -112,3 +112,8 @@ ordered_data = filtered_data[order(cluster_labels), ]
 sorted_labels = cluster_labels[order(cluster_labels)]
 #Generate heatmap
 heatmap(ordered_data, Rowv = NA, Colv = NA, RowSideColors = RColorBrewer::brewer.pal(12, "Paired")[sorted_labels])
+cluster1_genes = rownames(filtered_data)[kmeans_result$cluster == 1]
+table(cluster_labels)
+cluster1_genes = rownames(filtered_data)[cluster_labels == 1]
+print(cluster1_genes)
+
